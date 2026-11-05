@@ -1,0 +1,11 @@
+version: "1.0.0"
+description: "Driver DAC 12-bit MCP4725 dengan dukungan DAC register dan EEPROM untuk ESP-IDF."
+url: "https://github.com/wahyu-widodo-dev/mcp4725"
+repository: "https://github.com/wahyu-widodo-dev/mcp4725"
+license: "MIT"
+dependencies:
+  idf:
+    version: ">=5.3.0"
+    
+  wahyu-widodo-dev/i2c_bus:
+    version: "^1.0.0"
